@@ -41,7 +41,7 @@ header > h1 {
 }
 
 nav {
-    padding: 3px 10px;
+    padding: 3px 5px;
     background-color: var(--cor3);
     box-shadow: 0px 2px 2px var(--cor5);
 }
@@ -49,7 +49,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 3px 15px;
+    padding: 3px 10px;
     font-family: var(--basica);
     border-radius: 3px;
 }
