@@ -37,6 +37,7 @@ header > h1 {
     font-family: var(--chamativa);
     text-align: center;
     color: white;
+    line-height: 80px;
 }
 
 nav {
