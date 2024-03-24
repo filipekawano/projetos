@@ -90,8 +90,7 @@ div#produto {
 
 img.produto {
     width: 49%;
-    min-width: 230px;
-    columns: 2;
+    min-width: 320px;
 }
 
 footer {
