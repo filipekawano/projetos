@@ -101,17 +101,10 @@ img.produto {
     min-width: 320px;
 }
 
-img#cartao {
-    width: 73.6%;
-}
-img#compartilhe {
-    width: 25.5%;
-}
-
 img#casal {
     margin-top: 15px;
     margin-left: 20px;
-    width: 280px;
+    width: 200px; 
 }
 
 footer {
