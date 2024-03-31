@@ -109,6 +109,26 @@ img#casal {
     max-width: 300px;
 }
 
+div#parallax {
+    position: relative;
+    height: 100vh;
+    box-shadow: inset 0px 0px 13px rgba(39, 32, 38, 0.479);
+    background: var(--cor1) url('imagens/various-types-sewing-tools.jpg') center center no-repeat fixed;
+    background-size: cover;
+    margin: 0px -15px;
+}
+
+div#parallax > h3 {
+    position: absolute;
+    color: white;
+    font: normal 3vw var(--chamativa);
+    text-shadow: 1.3px 1.3px 2px var(--cor5);
+    width: max-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 footer {
     font-family: var(--basica);
     font-size: 0.8em;
