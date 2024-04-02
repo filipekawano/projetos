@@ -101,27 +101,36 @@ img.produto {
     min-width: 320px;
 }
 
-img#casal {
+img#danielle {
     float: right;
     margin: 15px 0px 5px 18px;
     width: 28vw;
     min-width: 200px;
-    max-width: 300px;
+    max-width: 270px;
+}
+
+img#casal {
+    float: left;
+    margin: 5px 18px 5px 0px;
+    width: 28vw;
+    min-width: 200px;
+    max-width: 270px;
 }
 
 div#parallax {
     position: relative;
     height: 100vh;
     box-shadow: inset 0px 0px 13px rgba(39, 32, 38, 0.479);
-    background: var(--cor1) url('imagens/various-types-sewing-tools.jpg') center center no-repeat fixed;
+    background: var(--cor1) url('imagens/parallax2.jpg') center center no-repeat fixed;
     background-size: cover;
-    margin: 0px -15px;
+    margin: 30px 0px;
+    /*Sem borda -  margin: 30px -15px;*/
 }
 
 div#parallax > h3 {
     position: absolute;
-    color: white;
-    font: normal 3vw var(--chamativa);
+    color: var(--cor3);
+    font: normal 3.5vw var(--chamativa);
     text-shadow: 1.3px 1.3px 2px var(--cor5);
     width: max-content;
     left: 50%;
