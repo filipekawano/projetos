@@ -34,7 +34,7 @@ body {
 
 header {
     padding: 40px;
-    background-color: var(--cory);
+    background-color: var(--cor4);
 }
 
 header > h1 {
@@ -46,7 +46,7 @@ header > h1 {
 
 nav {
     padding: 3px 5px;
-    background-color: var(--cory);
+    background-color: var(--cor4);
     box-shadow: 0px 3px 3px var(--cor5);
 }
 
@@ -119,7 +119,7 @@ img#casal {
     max-width: 270px;
 }
 
-div#parallax {
+div.parallax {
     position: relative;
     height: 150vh;
     /*box-shadow: inset 1px 1px 15px rgba(39, 32, 38, 0.479);*/
@@ -128,7 +128,15 @@ div#parallax {
     margin: 30px -15px;
 }
 
-div#parallax > h3 {
+#foto1 {
+    background-image: url('imagens/parallax2.jpg') ;
+}
+
+#foto2 {
+    background-image: url('imagens/parallax1.jpg') ;
+}
+
+div.parallax > h3 {
     position: absolute;
     text-align: center;
     color: var(--corx);
@@ -145,7 +153,7 @@ footer {
     font-family: var(--basica);
     font-size: 0.8em;
     margin-top: 30px;
-    background-color: var(--cory);
+    background-color: var(--cor4);
     color: white;
     text-align: center;
 }
