@@ -66,6 +66,13 @@ nav a:visited {
     color: var(--cor0);
 }
 
+/*nav.suspenso:hover {
+    display: block;
+nav.suspenso {
+    display: none;
+    background-color: white;
+}*/
+
 main {
     padding: 15px;
     max-width: 1000px;
@@ -95,6 +102,10 @@ img {
     width: 100%;
 }
 
+img#banner:hover {
+    opacity: 0.6;
+}
+
 div#produto {
     text-align: center;
 }
@@ -122,24 +133,21 @@ img#casal {
 div.parallax {
     position: relative;
     height: 150vh;
-    /*box-shadow: inset 1px 1px 15px rgba(39, 32, 38, 0.479);*/
     background: var(--corx) url('imagens/parallax1.jpg') center center no-repeat fixed;
     background-size: scroll;
     margin: 30px -15px;
 }
-
 #foto1 {
     background-image: url('imagens/parallax2.jpg') ;
 }
-
 #foto2 {
-    background-image: url('imagens/parallax1.jpg') ;
+    background-image: url('imagens/ferramentas-atelie2.jpeg');
 }
-
-div.parallax > h3 {
+div.parallax > h3, h3 > a {
     position: absolute;
     text-align: center;
     color: var(--corx);
+    text-decoration: none;
     font: normal 5.5vw var(--chamativa);
     width: max-content;
     max-width: 450px;
@@ -147,6 +155,10 @@ div.parallax > h3 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+h3 > a:hover {
+    color: var(--cor4);
+    text-shadow: 1px 1px 2px var(--cor5);
 }
 
 footer {
