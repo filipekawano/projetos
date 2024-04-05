@@ -66,13 +66,6 @@ nav a:visited {
     color: var(--cor0);
 }
 
-/*nav.suspenso:hover {
-    display: block;
-nav.suspenso {
-    display: none;
-    background-color: white;
-}*/
-
 main {
     padding: 15px;
     max-width: 1000px;
