@@ -136,7 +136,7 @@ div.parallax {
 #foto2 {
     background-image: url('imagens/ferramentas-atelie2.jpeg');
 }
-div.parallax > h3, h3 > a {
+div.parallax > h3 {
     position: absolute;
     text-align: center;
     color: var(--corx);
@@ -148,10 +148,6 @@ div.parallax > h3, h3 > a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-h3 > a:hover {
-    color: var(--cor4);
-    text-shadow: 1px 1px 2px var(--cor5);
 }
 
 div#instagram {
@@ -169,6 +165,7 @@ div#instagram a:hover {
 video {
     display: block;
     margin: auto;
+    min-width: 350px;
 }
 
 footer {
