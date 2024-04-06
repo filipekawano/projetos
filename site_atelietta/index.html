@@ -13,12 +13,15 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a id="Produtos" href="produtos.html">Produtos</a>
+        <a href="produtos.html">Produtos</a>
         <a href="sobre-nos.html">Sobre nós</a>
         <a href="contato.html">Contato</a>
     </nav>
     <main>
-        <a href="produtos.html"><img id="banner" src="imagens/banner.jpeg"></a>
+        <a href="produtos.html"><picture id="banner">
+            <source media="(max-width: 600px)" srcset="imagens/banner-p.jpeg" type="image/jpeg">
+            <img src="imagens/banner-g.jpeg">
+        </picture></a>
 
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsum explicabo velit culpa sit, veritatis provident nobis. Alias, eos vero? Molestiae corrupti fugiat excepturi voluptatem aspernatur, soluta facilis quia natus!
@@ -38,6 +41,13 @@
             </h3>
         </div>
         
+        <div id="instagram">
+            <a href="https://www.instagram.com/atelietta/" target="_blank" rel="external"><h2>&gt;&gt; Conheça nosso Instagram clicando <strong>aqui</strong></a>. &lt;&lt;</h2>         
+        </div>
+
+        <video src="imagens/banner-video-g.mp4" autoplay muted loop>
+        </video>
+
     </main>
     <footer>
         <p>Localidade: Itu/SP</p>

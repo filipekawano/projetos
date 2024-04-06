@@ -29,7 +29,7 @@
 
 body {
     background-color: var(--cor1);
-    background-image: url('imagens/Padronagem.jpeg');
+    background-image: url('imagens/Padronagem2.jpeg');
 }
 
 header {
@@ -73,7 +73,7 @@ main {
     height: auto;
     margin: auto;
     background-color: var(--corx);
-    box-shadow: 0px 3px 3px var(--cor5);
+    box-shadow: 0px 3.5px 3.5px var(--cor5);
 }
 
 main p {
@@ -95,7 +95,7 @@ img {
     width: 100%;
 }
 
-img#banner:hover {
+picture#banner:hover {
     opacity: 0.6;
 }
 
@@ -152,6 +152,23 @@ div.parallax > h3, h3 > a {
 h3 > a:hover {
     color: var(--cor4);
     text-shadow: 1px 1px 2px var(--cor5);
+}
+
+div#instagram {
+    margin: 50px 0px;
+}
+div#instagram a {
+    text-decoration: none;
+    color: var(--cor3)
+}
+div#instagram a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+video {
+    display: block;
+    margin: auto;
 }
 
 footer {
