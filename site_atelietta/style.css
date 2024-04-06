@@ -33,7 +33,7 @@ body {
 }
 
 header {
-    padding: 40px 0px;
+    padding: 40px 15px;
     background-color: var(--cor4);
 }
 
@@ -42,7 +42,7 @@ header > h1 {
     text-align: center;
     color: white;
     line-height: 80px;
-    font-size: 1.7em;
+    font-size: calc(20px + 1.5vw);
 }
 
 nav {
