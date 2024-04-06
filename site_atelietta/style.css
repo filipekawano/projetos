@@ -142,7 +142,7 @@ div.parallax > h3 {
     text-align: center;
     color: var(--corx);
     text-decoration: none;
-    font: normal calc(30px + 1.5vw) var(--chamativa);
+    font: normal calc(20px + 1.5vw) var(--chamativa);
     width: max-content;
     max-width: 450px;
     line-height: 125px;
