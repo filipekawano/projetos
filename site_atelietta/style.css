@@ -142,14 +142,13 @@ div.parallax > h3 {
     text-align: center;
     color: var(--corx);
     text-decoration: none;
-    font: normal calc(20px + 1.5vw) var(--chamativa);
+    font: normal calc(25px + 1vw) var(--chamativa);
     width: max-content;
     max-width: 450px;
-    line-height: 125px;
+    line-height: 100px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin: 5px;
 }
 
 #instagram {
