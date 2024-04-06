@@ -142,9 +142,7 @@ div.parallax > h3 {
     text-align: center;
     color: var(--corx);
     text-decoration: none;
-    font: normal calc(25px + 1vw) var(--chamativa);
-    width: max-content;
-    max-width: 450px;
+    font: normal calc(25px + 1.5vw) var(--chamativa);
     line-height: 100px;
     left: 50%;
     top: 50%;
@@ -154,8 +152,6 @@ div.parallax > h3 {
 #instagram {
     margin: 35px 0px 30px 0px;
     padding: 15px 0px;
-    /*border: 12px solid transparent;
-    border-image: url('imagens/');*/
 }
 #instagram a {
     text-decoration: none;
