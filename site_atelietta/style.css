@@ -79,7 +79,7 @@ main {
 
 main p {
     margin: 15px 0px;
-    text-align: justify;
+    /*text-align: justify;*/
     text-indent: 30px;
     font-family: var(--basica);
     font-weight: normal;
