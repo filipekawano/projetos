@@ -164,6 +164,9 @@ div.parallax > h3 {
     font-style: normal;
 }
 
+.mp4 {
+    margin: 0px -15px;
+}
 video {
     display: block;
     margin: auto;
