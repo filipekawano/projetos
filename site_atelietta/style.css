@@ -81,7 +81,7 @@ main p {
     margin: 15px 0px;
     text-align: justify;
     line-height: 25px;
-    text-indent: 30px;
+    text-indent: 27px;
     font-family: var(--basica);
     font-weight: normal;
 }
@@ -111,17 +111,17 @@ img.produto {
 
 img#danielle {
     float: right;
-    margin: 15px -7.5px 5px 11.5px;
+    margin: 15px -7.5px 5px 11px;
     width: 28vw;
-    min-width: 162px;
+    min-width: 160px;
     max-width: 270px;
 }
 
 img#casal {
     float: left;
-    margin: 5px 11.5px 5px -7.5px;
+    margin: 5px 11px 5px -7.5px;
     width: 28vw;
-    min-width: 152.5px;
+    min-width: 150px;
     max-width: 270px;
 }
 
