@@ -111,17 +111,17 @@ img.produto {
 
 img#danielle {
     float: right;
-    margin: 15px -5px 5px 12px;
+    margin: 15px -7.5px 5px 11.5px;
     width: 28vw;
-    min-width: 165px;
+    min-width: 162px;
     max-width: 270px;
 }
 
 img#casal {
     float: left;
-    margin: 5px 12px 5px -5px;
+    margin: 5px 11.5px 5px -7.5px;
     width: 28vw;
-    min-width: 155px;
+    min-width: 152.5px;
     max-width: 270px;
 }
 
