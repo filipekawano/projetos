@@ -111,18 +111,18 @@ img.produto {
 
 img#danielle {
     float: right;
-    margin: 15px -10px 5px 15px;
+    margin: 15px -5px 5px 15px;
     width: 28vw;
     min-width: 180px;
-    max-width: 270px;
+    max-width: 260px;
 }
 
 img#casal {
     float: left;
-    margin: 5px 15px 5px -10px;
+    margin: 5px 15px 5px -5px;
     width: 28vw;
     min-width: 180px;
-    max-width: 270px;
+    max-width: 250px;
 }
 
 .parallax {
