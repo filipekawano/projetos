@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: 'Amarillo';
-    src: url(fontes/amarillo/Amarillo.otf) format('opentype'),
-    url(fontes/amarillo/Amarillo.ttf) format('truetype');
+    src: url(../fontes/amarillo/Amarillo.otf) format('opentype'),
+    url(../fontes/amarillo/Amarillo.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+/* Configurações Gerais (all) */
 
 :root {
     --corx: #ffeeeb;
@@ -29,7 +31,7 @@
 
 body {
     background-color: var(--cor1);
-    background-image: url('imagens/Padronagem2.jpeg');
+    background-image: url('../imagens/Padronagem2.jpeg');
 }
 
 header {
@@ -101,13 +103,6 @@ picture#banner:hover {
     opacity: 0.6;
 }
 
-div#produto {
-    text-align: center;
-}
-img.produto {
-    width: 49.6%;
-    min-width: 320px;
-}
 
 img#danielle {
     float: right;
@@ -128,15 +123,15 @@ img#casal {
 .parallax {
     position: relative;
     height: 150vh;
-    background: var(--corx) url('imagens/parallax1.jpg') center center no-repeat fixed;
+    background: var(--corx) url('../imagens/parallax1.jpg') center center no-repeat fixed;
     background-size: scroll;
     margin: 30px -15px;
 }
 #foto1 {
-    background-image: url('imagens/parallax2.jpg') ;
+    background-image: url('../imagens/parallax2.jpg') ;
 }
 #foto2 {
-    background-image: url('imagens/ferramentas-atelie2.jpeg');
+    background-image: url('../imagens/ferramentas-atelie2.jpeg');
 }
 div.parallax > h3 {
     position: absolute;

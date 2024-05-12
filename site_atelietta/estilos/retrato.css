@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* Orientação em pé (Portrait) */
+
+img.produto {
+    width: 100%;
+}
