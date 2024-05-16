@@ -52,9 +52,9 @@ div#menu_burger {
 span#burger {
     color: white;
     display: block;
-    width: 65px;
+    width: 85px;
     text-align: center;
-    padding: 12.5px;
+    padding: 13px;
 }
 span#burger:hover {
     background-color: var(--cor2);
