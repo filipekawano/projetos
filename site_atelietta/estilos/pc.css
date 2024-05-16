@@ -5,3 +5,15 @@
 img.produto {
     width: 49.5%;
 }
+
+nav {
+    display: block;
+}
+
+span#burger {
+    display: none;
+}
+
+nav li {
+    display: inline-block;
+}

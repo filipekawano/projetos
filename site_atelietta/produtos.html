@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossos produtos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/pc.css" media="screen and (min-width: 768px)">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Nossos produtos</h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="sobre-nos.html">Sobre nós</a>
-        <a href="contato.html">Contato</a>
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <nav id="itens">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="sobre-nos.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
     </nav>
     <main>
         <h2>Confira abaixo alguns de nossos produtos. Encomende já!</h2>
@@ -46,5 +50,21 @@
         <p>Localidade: Itu/SP</p>
         <p>Site criado por Danielle e Filipe Kawano</p>
     </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
