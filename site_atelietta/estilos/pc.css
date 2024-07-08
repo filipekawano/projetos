@@ -2,8 +2,11 @@
 
 /* Tablet, PC e TV */
 
-img.produto {
-    width: 49.5%;
+.grid-products {
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-products img:hover {
+    opacity: 0.7;    
 }
 
 nav {
