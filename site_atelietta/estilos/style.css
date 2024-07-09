@@ -139,10 +139,6 @@ img {
     gap: 5px;
 }
 
-picture#banner:hover {
-    opacity: 0.7;
-}
-
 img#danielle {
     float: right;
     margin: 15px -7.5px 5px 11px;
