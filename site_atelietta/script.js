@@ -6,7 +6,7 @@ fechar.addEventListener('click', clickMenu)
 function clickMenu() {
     if (itens.style.display === 'block') {
         itens.style.display = 'none'
-        menu.style.display ='block'
+        menu.style.display ='flex'
         fechar.style.display = 'none'
     } else {
         itens.style.display = 'block'
@@ -20,5 +20,9 @@ function mudouTamanho() {
         itens.style.display = 'block'
     } else {
         itens.style.display = 'none'
+        if (fechar.style.display == 'block' && itens.style.display == 'none') {
+            fechar.style.display = 'none'
+            menu.style.display = 'flex'
+        }
     }
 }

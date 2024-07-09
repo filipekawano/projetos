@@ -13,7 +13,11 @@ nav {
     display: block;
 }
 
-span#burger, span#texto_menu {
+.menu_container {
+    display: none;
+}
+
+hr {
     display: none;
 }
 
