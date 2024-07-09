@@ -49,13 +49,12 @@ header > h1 {
 .menu_container {
     background-color: var(--cor4);
 }
-
 #menu_burger {
     display: flex;
     align-items: center;
     width: fit-content;
 } 
-span#burger, #close {
+#burger, #close {
     font-size: 40px;
     color: white;
     display: inline-block;
@@ -63,7 +62,7 @@ span#burger, #close {
     text-align: center;
     padding: 15px;
 }
-span#texto_menu {
+#texto_menu {
     font: normal 12px Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -86,7 +85,7 @@ nav {
 nav ul {
     list-style-type: none;
 }
-nav a {
+nav li a {
     display: block;
     text-align: center;
     color: white;
@@ -187,6 +186,8 @@ div.parallax > h3 {
 #redes_sociais {
     margin: 35px 0px 30px 0px;
     padding: 15px 0px;
+    border: 1px solid var(--cor5);
+    border-radius: 15px;
 }
 #redes_sociais a {
     text-decoration: none;

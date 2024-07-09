@@ -12,15 +12,12 @@
 nav {
     display: block;
 }
-
 .menu_container {
     display: none;
 }
-
 hr {
     display: none;
 }
-
 nav li {
     display: inline-block;
     width: 160px;
