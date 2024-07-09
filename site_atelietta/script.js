@@ -1,11 +1,17 @@
-var menu = document.querySelector('span#burger')
+var menu = document.querySelector('#menu_burger')
+var fechar = document.querySelector('#close')
 menu.addEventListener('click', clickMenu)
+fechar.addEventListener('click', clickMenu)
 
 function clickMenu() {
     if (itens.style.display === 'block') {
         itens.style.display = 'none'
+        menu.style.display ='block'
+        fechar.style.display = 'none'
     } else {
         itens.style.display = 'block'
+        menu.style.display ='none'
+        fechar.style.display = 'block'
     }
 }
 

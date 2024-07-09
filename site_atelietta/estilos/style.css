@@ -46,20 +46,34 @@ header > h1 {
     font-size: calc(23px + 1.5vw);
 }
 
-div#menu_burger {
+.menu_container {
     background-color: var(--cor4);
+}
+
+#menu_burger {
+    display: flex;
+    align-items: center;
+    width: fit-content;
 } 
-span#burger {
+span#burger, #close {
+    font-size: 40px;
     color: white;
-    display: block;
+    display: inline-block;
     width: 85px;
     text-align: center;
     padding: 15px;
 }
-span#burger:hover {
-    background-color: var(--cor2);
+span#texto_menu {
+    font: normal 12px Arial, Helvetica, sans-serif;
+    color: white;
+}
+#menu_burger:hover  {
     border-radius: 5px;
-    color: var(--cor5);
+    color: var(--cor5); 
+    cursor: pointer;
+}
+#close {
+    display: none;
     cursor: pointer;
 }
 
@@ -74,6 +88,7 @@ nav ul {
 }
 nav a {
     display: block;
+    text-align: center;
     color: white;
     text-decoration: none;
     padding: 15px 10px;
